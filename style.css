@@ -280,37 +280,40 @@ body{
    
 
     
-    @media screen and (max-width:823px){
-        .right-title::after{
-            width: 40%;
-        
-    }
-}
-@media screen and (max-width:681px){
+  
+
+@media screen and (max-width:320px){
     .right-title::after{
         width: 30%;
     
 }
-}
-@media screen and (max-width:780px){
+
+
     .timeline{
         grid-template-columns: repeat(1,1fr);
     }
     
-}
-@media screen and (max-width:780px){
     .left-section{
-        grid-columns: span 3;
+        grid-column: span 1;
+        width: 100%;
     }
     .right-section{
-        grid-columns: span 4;
+        grid-column: span 1;
+        width: 100%;
     }
     
+
+    .profile{
+        grid-column: span 1;
+        width: 100%;
+    }
+
+    .main-content{
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+
 }
-
-    
-
-
 
 
 
